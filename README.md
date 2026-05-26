@@ -37,24 +37,6 @@ javac -cp ".:lib/mysql-connector-j-8.x.x.jar" *.java          # Mac/Linux
 java -cp ".;lib/mysql-connector-j-8.x.x.jar" Main             # Windows
 java -cp ".:lib/mysql-connector-j-8.x.x.jar" Main             # Mac/Linux
 ```
----
-Default Login
-Role	Email	Password
-Admin	admin@library.com	admin123
-Member	alice@example.com	alice123
----
-Features by Role
-Admin
-Add / Delete Books
-View & Search all Books
-Issue & Return Books (for any user)
-View all Issued Books
-Add / View / Delete Users
-Member
-View & Search Books
-Issue a Book (to themselves)
-Return a Book
----
 OOP Concepts Demonstrated
 Concept	Where
 Classes & Objects	`Book`, `User`, `LibraryService`, `DatabaseConnection`
